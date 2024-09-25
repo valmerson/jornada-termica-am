@@ -78,7 +78,7 @@ h3 {
 
 p {
   font-size: 1.1em;
-  line-height: 1.6;
+  line-height: 1.5;
   margin-bottom: 15px;
   color: #666;
 }
@@ -200,13 +200,17 @@ p {
 
 .story-intro p {
   font-size: 1.1em;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #ddd;
   max-width: 800px;
   margin: 0 auto 40px;
   text-align: justify;
 }
 
+.destaque {
+  font-weight: 500;
+  color: #9ebbdd;
+}
 .map-section {
   background-color: #ddd;
   padding: 30px;
@@ -382,13 +386,14 @@ p {
 }
 
 .callout-title {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 p.callout-text {
   margin-bottom: 8px;
-  line-height: 1.5;
+  line-height: 1.3;
   font-size: 14px;
   flex-grow: 1;
 }
