@@ -171,7 +171,7 @@ p {
 
 .story-header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .main-title {
@@ -351,4 +351,77 @@ p {
   margin-top: 30px;
   padding-top: 20px;
   border-top: 1px solid #ddd;
+}
+
+/* Estilos para o callout */
+
+.callout {
+  border: 1px solid #9ebbdd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 0;
+  color: #9ebbdd;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.callout-info {
+  border-left: 4px solid #9ebbdd;
+}
+
+.callout-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.callout-icon {
+  margin-right: 8px;
+}
+
+.callout-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p.callout-text {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  font-size: 14px;
+  flex-grow: 1;
+}
+
+.callout-link {
+  color: #9ebbdd;
+  text-decoration: none;
+  border-bottom: 1px solid #9ebbdd;
+}
+
+.callout-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #9ebbdd;
+}
+
+/* Layout de duas colunas */
+.two-column-container {
+  display: flex;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.column {
+  flex: 1;
+}
+
+.text-column p {
+  margin: 0;
+}
+
+/* Ajustes para responsividade */
+@media (max-width: 768px) {
+  .two-column-container {
+    flex-direction: column;
+  }
 }
