@@ -430,3 +430,42 @@ p.callout-text {
     flex-direction: column;
   }
 }
+
+/*responsividade */
+
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 2em;
+  }
+
+  .subtitle {
+    font-size: 0.9em;
+  }
+
+  .story-intro p {
+    font-size: 0.9em;
+  }
+
+  .sticky {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .steps {
+    width: 100%;
+  }
+
+  .step {
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  .section {
+    max-width: 100%;
+  }
+
+  .conclusion-title, .section-title {
+    font-size: 1.5em;
+  }
+}
